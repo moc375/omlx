@@ -91,6 +91,7 @@ class TestServerSettings:
             "max_audio_upload_size": "100MB",
             "max_image_upload_size": "50MB",
             "max_image_side_length": 2048,
+            "gpu_keepwarm": True,
         }
 
     def test_from_dict_distributed_inference_is_opt_in(self):
